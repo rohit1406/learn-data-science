@@ -31,6 +31,10 @@ This program illustrates the importance of data pre-processing and cleaning, bec
   ![Image](./images/Machine%20Learning_with_rawtext_wc.png)     
 
 
+
+## Assignments and Solutions
+1. Assignment 1: [Click Here](./assignment.md)  
+
 ## 🌟 Developer
 Name: Rohit Shamrao Muneshwar  
 Email: rohit.muneshwar1406@gmail.com  
