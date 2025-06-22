@@ -14,10 +14,17 @@ Couple of programs related to Data Science Introduction topic.
 3. wordcloud - another better way to visualize word frequencies
 
 ## List of Programs
-1. Text Mining program  
-The program to read a wikipedia text about [Data Science](https://en.wikipedia.org/wiki/Data_science), extract related keywords out of it and try to visualize the results. This program illustrates the importance of data pre-processing and cleaning, because clear picture at the end will allow us to make better decisions.  
+### Text Mining program   
+This program is a good example to learn the steps of the data journey in Data Science i.e.
+- **Data Acquisition**  
+The program to read a wikipedia text about [Data Science](https://en.wikipedia.org/wiki/Data_science)
+- **Data Processing**  
+extract related keywords out of it
+- **Visualization / Human Insights**  
+visualize the results  
+This program illustrates the importance of data pre-processing and cleaning, because clear picture at the end will allow us to make better decisions.  
   **Output:**  
-  ![Image](./images/data-science-text-mining-output.png)  
+  ![Image](./images/Data Science_with_rawtext_wc.png)  
   ![Image](./images/ds_wc.png)
   ![Image](./images/ds_with_rawtext_wc.png)
 

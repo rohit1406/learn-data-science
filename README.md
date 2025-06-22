@@ -5,7 +5,7 @@ Below is the list of programs implemented during this learning.
 ## 🗃️ Programs
 | #    | Topic | **Program Link** | **Description** |  **Output** |
 | --- | ---------------|---------------------|-------------------|--------|
-| 01 | Introduction | [Text Mining](./introduction/README.md) | a wikipedia text mining program | [output1](./introduction/images/data-science-text-mining-output.png), [output2](./introduction/images/ds_wc.png), [output3](./introduction/images/ds_with_rawtext_wc.png) |
+| 01 | Introduction | [Text Mining](./introduction/README.md) | a wikipedia text mining program | [output1](./introduction/images/Data Science_with_rawtext_wc.png), [output2](./introduction/images/ds_wc.png), [output3](./introduction/images/ds_with_rawtext_wc.png) |
 
 ## Create and Use Virtual Environment
 ```

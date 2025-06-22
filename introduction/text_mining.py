@@ -1,3 +1,4 @@
+import os # to handle file paths
 import requests # to make HTTP requests
 from html.parser import HTMLParser # built-in HTML parser
 import nlp_rake # for keyword extraction
@@ -34,26 +35,29 @@ def plot_with_frequencies_wc(res):
     wc.generate_from_frequencies({k:v for k,v in res}).to_file('introduction/images/ds_wc.png')
 
 # Plotting with raw text using wordcloud: generates the frequencies of the words and uses them to plot
-def plot_with_rawtext_wc(text):
+def plot_with_rawtext_wc(text, field_domain, relative_path):
     wc = WordCloud(width=800, height=600, background_color='white')
     plt.figure(figsize=(15, 7))
-    wc.generate(text).to_file('introduction/images/ds_with_rawtext_wc.png')
+    relattive_file_path = os.path.join(relative_path, field_domain+ '_with_rawtext_wc.png')
+    wc.generate(text).to_file(relattive_file_path)
+    print(f'File saved to {os.getcwd()}/{relattive_file_path}')
 
-# Step1: Getting the data
-data_science_wiki_url = 'https://en.wikipedia.org/wiki/Data_science'
-text = requests.get(data_science_wiki_url).content.decode('utf-8')
+def plot_domain_rawdata_with_wc_to_file(url, field_domain, output_relative_path):
 
-# Step2: Transforming the data - converting the data that will be suitable for processing
-parser = MyHTMLParser()
-parser.feed(text)
-text = parser.res
+    # Step1: Getting the data
+    text = requests.get(url).content.decode('utf-8')
 
-# Step3: Processing the data for getting Insights
-# Extracting the keywords from the text and see which keywords are more meaningful
-extractor = nlp_rake.Rake(max_words=2, min_freq=3, min_chars=5)
-res = extractor.apply(text)
+    # Step2: Transforming the data - converting the data that will be suitable for processing
+    parser = MyHTMLParser()
+    parser.feed(text)
+    text = parser.res
 
-# Step4: Visualizing the results
-#plot(res) # This will generate a simple bar chart of the keywords and their relevance
-#plot_with_frequencies_wc(res) # This will generate a word cloud based on the frequencies of the keywords and save it to a file
-plot_with_rawtext_wc(text) # This will generate a word cloud based on the raw text and save it to a file
+    # Step3: Processing the data for getting Insights
+    # Extracting the keywords from the text and see which keywords are more meaningful
+    extractor = nlp_rake.Rake(max_words=2, min_freq=3, min_chars=5)
+    res = extractor.apply(text)
+
+    # Step4: Visualizing the results
+    #plot(res) # This will generate a simple bar chart of the keywords and their relevance
+    #plot_with_frequencies_wc(res) # This will generate a word cloud based on the frequencies of the keywords and save it to a file
+    plot_with_rawtext_wc(text, field_domain, output_relative_path) # This will generate a word cloud based on the raw text and save it to a file
