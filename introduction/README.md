@@ -25,14 +25,14 @@ extract related keywords out of it
 visualize the results  
 This program illustrates the importance of data pre-processing and cleaning, because clear picture at the end will allow us to make better decisions.  
   **Output:**   
-  ![Image](./images/ds_wc.png)  
-  ![Image](./images/Data%20Science_with_rawtext_wc.png)    
-  ![Image](./images/Big%20Data_with_rawtext_wc.png)     
-  ![Image](./images/Machine%20Learning_with_rawtext_wc.png)     
+  ![<Img src="./images/ds_wc.png" width="200">]
+  ![<Img src="./images/Data%20Science_with_rawtext_wc.png" width="200">]
+  ![<Img src="./images/Big%20Data_with_rawtext_wc.png" width="200">]
+  ![<Img src="./images/Machine%20Learning_with_rawtext_wc.png" width="200">]  
 
 
 
-## Assignments and Solutions
+## Assignment and Solution
 1. Assignment 1: [Click Here](./assignment.md)  
 
 ## 🌟 Developer
