@@ -7,6 +7,7 @@ Couple of programs related to Data Science Introduction topic.
 ### Internal Dependencies
 1. requests - to make HTTP calls
 2. html.parser
+3. os - for dealing with file handling
 
 ### External Dependencies
 1. nlp_rake - for keyword extraction
@@ -23,10 +24,11 @@ extract related keywords out of it
 - **Visualization / Human Insights**  
 visualize the results  
 This program illustrates the importance of data pre-processing and cleaning, because clear picture at the end will allow us to make better decisions.  
-  **Output:**  
-  ![Image](./images/Data Science_with_rawtext_wc.png)  
-  ![Image](./images/ds_wc.png)
-  ![Image](./images/ds_with_rawtext_wc.png)
+  **Output:**   
+  ![Image](./images/ds_wc.png)  
+  ![Image](./images/Data%20Science_with_rawtext_wc.png)    
+  ![Image](./images/Big%20Data_with_rawtext_wc.png)     
+  ![Image](./images/Machine%20Learning_with_rawtext_wc.png)     
 
 
 ## 🌟 Developer
