@@ -18,7 +18,7 @@ Couple of programs related to Data Science Introduction topic.
 
 ## List of Programs
 ### Text Mining program   
-This program is a good example to learn the steps of the data journey in Data Science i.e.
+[This program](./data-science-scenarios-assignment.md) is a good example to learn the steps of the data journey in Data Science i.e.
 - **Data Acquisition**  
 The program to read a wikipedia text about [Data Science](https://en.wikipedia.org/wiki/Data_science)
 - **Data Processing**  
@@ -31,6 +31,11 @@ This program illustrates the importance of data pre-processing and cleaning, bec
   ![<Img src="./images/Data%20Science_with_rawtext_wc.png" width="200">]
   ![<Img src="./images/Big%20Data_with_rawtext_wc.png" width="200">]
   ![<Img src="./images/Machine%20Learning_with_rawtext_wc.png" width="200">]  
+
+
+### Probability And Statistical Function Computation
+Learn to calculate mean, standard deviation, variance, median, plot histograms.  
+[Python Program](./probability-statistics.py)
 
 
 
