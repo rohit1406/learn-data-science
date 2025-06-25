@@ -2,10 +2,30 @@
 This repository is created for Data Science concepts implementation.
 Below is the list of programs implemented during this learning.
 
-## 🗃️ Programs
+## Dependencies 
+### Software Dependencies
+1. [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-77958-bethanycheum)  
+2. [SQLite Extension](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite&WT.mc_id=academic-77958-bethanycheum) 
+3. [Cosmos Db Emulator](https://aka.ms/cosmosdb-emulator)  
+
+### Internal Project Dependencies
+1. requests - to make HTTP calls
+2. html.parser
+3. os - for dealing with file handling
+
+### External Project Dependencies (pip install ***)
+1. nlp_rake - for keyword extraction
+2. matplotlib - for plotting simple distribution of keywords based on their relevance  
+3. wordcloud - another better way to visualize word frequencies
+4. numpy - for probability and statistics calculations
+5. pandas - for data analysis (probability and statistics calculations )  
+
+## 🗃️ Topics
 | #    | Topic | **Program Link** | **Description** |  **Output** |
-| --- | ---------------|---------------------|-------------------|--------|
-| 01 | Introduction | [Text Mining](./introduction/README.md) | a wikipedia text mining program | [output1](./introduction/images/ds_wc.png), [output2](./introduction/images/ds_with_rawtext_wc.png), [output3](./introduction/images/Big%20Data_with_rawtext_wc.png), [output4](./introduction/images/Machine%20Learning_with_rawtext_wc.png) |
+| --- | ---------------|---------------------|-------------------|
+| 01 | Introduction | [Programs](./introduction/README.md) | a wikipedia text mining program, programs related to probability & statistics | 
+| 02 | Working with Data | [Programs](./working-with-data/README.md) | Relational Database, NoSQL Databases | 
+
 
 ## Create and Use Virtual Environment
 ```

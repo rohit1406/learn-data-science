@@ -1,8 +1,8 @@
 ## Description
-Couple of programs related to Data Science Introduction topic.
+Couple of programs related to Data Science & Working with Data topic.
 
 ## List of Programs
-### 01. Text Mining program   
+### Text Mining program   
 [This program](./data-science-scenarios-assignment.md) is a good example to learn the steps of the data journey in Data Science i.e.
 - **Data Acquisition**  
 The program to read a wikipedia text about [Data Science](https://en.wikipedia.org/wiki/Data_science)
@@ -18,16 +18,15 @@ This program illustrates the importance of data pre-processing and cleaning, bec
   ![<Img src="./images/Machine%20Learning_with_rawtext_wc.png" width="200">]  
 
 
-### 02. Probability And Statistical Function Computation
+### Probability And Statistical Function Computation
 Learn to calculate mean, standard deviation, variance, median, plot histograms.  
 [Python Program](./probability-statistics.py)
 
 
 
 ## Assignment and Solution
-1. Assignment 1: [Data Science Scenarios](./data-science-scenarios-assignment.md)  
-2. Assignment 2: [Ethics](./ethics-assignment.md)
-3. Assignment 3: [Defining Data](./defining-data-assignment.md)
+1. Assignment 1: [Relational Databases](./relational-db-assignment.md)  
+2. Assignment 2: [Non-Relational Databases](./non-relational-assignment.md)  
 
 
 ## 🌟 Developer
