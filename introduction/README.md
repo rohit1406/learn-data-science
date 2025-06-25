@@ -3,16 +3,18 @@ Couple of programs related to Data Science Introduction topic.
   
     
       
-## Dependencies on modules (pip install ***)
+## Dependencies on modules 
 ### Internal Dependencies
 1. requests - to make HTTP calls
 2. html.parser
 3. os - for dealing with file handling
 
-### External Dependencies
+### External Dependencies (pip install ***)
 1. nlp_rake - for keyword extraction
 2. matplotlib - for plotting simple distribution of keywords based on their relevance  
 3. wordcloud - another better way to visualize word frequencies
+4. numpy - for probability and statistics calculations
+5. pandas - for data analysis (probability and statistics calculations )
 
 ## List of Programs
 ### Text Mining program   
@@ -33,7 +35,10 @@ This program illustrates the importance of data pre-processing and cleaning, bec
 
 
 ## Assignment and Solution
-1. Assignment 1: [Click Here](./assignment.md)  
+1. Assignment 1: [Data Science Scenarios](./data-science-scenarios-assignment.md)  
+2. Assignment 2: [Ethics](./ethics-assignment.md)
+3. Assignment 3: [Defining Data](./defining-data-assignment.md)
+
 
 ## 🌟 Developer
 Name: Rohit Shamrao Muneshwar  
