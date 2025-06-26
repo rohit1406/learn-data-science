@@ -15,15 +15,16 @@ Below is the list of programs implemented during this learning.
 
 ### External Project Dependencies (pip install ***)
 1. nlp_rake - for keyword extraction
-2. matplotlib - for plotting simple distribution of keywords based on their relevance  
+2. matplotlib - data visualization and plotting graphs  
 3. wordcloud - another better way to visualize word frequencies
-4. numpy - for probability and statistics calculations
-5. pandas - for data analysis (probability and statistics calculations )  
+4. numpy - is a library for working with tensors, i.e. multi-dimensional arrays
+5. pandas - allows you to manipulate so-called Dataframes, which are analogous to relational tables 
+6. SciPy - a library with additional scientific functions
 
 ## 🗃️ Topics
-| #    | Topic | **Program Link** | **Description** |  **Output** |
+| #    | Topic | **Programs/Assignments Link** | **Description** |
 | --- | ---------------|---------------------|-------------------|
-| 01 | Introduction | [Programs](./introduction/README.md) | a wikipedia text mining program, programs related to probability & statistics | 
+| 01 | Introduction | [Programs](./introduction/README.md) | a wikipedia text mining program, programs related to probability & statistics |   
 | 02 | Working with Data | [Programs](./working-with-data/README.md) | Relational Database, NoSQL Databases | 
 
 

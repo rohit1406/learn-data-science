@@ -1,26 +1,18 @@
 ## Description
-Couple of programs related to Data Science & Working with Data topic.
+Couple of programs related to Data Science & **Working with Data** topic.
 
 ## List of Programs
-### Text Mining program   
-[This program](./data-science-scenarios-assignment.md) is a good example to learn the steps of the data journey in Data Science i.e.
-- **Data Acquisition**  
-The program to read a wikipedia text about [Data Science](https://en.wikipedia.org/wiki/Data_science)
-- **Data Processing**  
-extract related keywords out of it
-- **Visualization / Human Insights**  
-visualize the results  
-This program illustrates the importance of data pre-processing and cleaning, because clear picture at the end will allow us to make better decisions.  
-  **Output:**   
-  ![<Img src="./images/ds_wc.png" width="200">]
-  ![<Img src="./images/Data%20Science_with_rawtext_wc.png" width="200">]
-  ![<Img src="./images/Big%20Data_with_rawtext_wc.png" width="200">]
-  ![<Img src="./images/Machine%20Learning_with_rawtext_wc.png" width="200">]  
+### Working with Series and DataFrames   
+[This program](./working_with_data_test.py) demonstrates the usage working with Series and DataFrames. It uses numpy and pandas library to perform some calculations on the Series of data and matplotlib to plot the graph from the data.
 
 
-### Probability And Statistical Function Computation
-Learn to calculate mean, standard deviation, variance, median, plot histograms.  
-[Python Program](./probability-statistics.py)
+### Modelling of epidemic spread of COVID-19
+This program aims to load the epidemic spread of COVID19 data from internet or local disc. The data is of number of **infected people, recovered and dead people** across the globe and present in **csv file**. There is also data related to countries like population. Once data is loaded, it **analyzes** the whole data **per country** to  
+- find number of infected people 
+- new infected people average
+- percentage of infected people with respect to population
+Once this   
+[Python Program](./modelling_covid19_spread.py)
 
 
 
