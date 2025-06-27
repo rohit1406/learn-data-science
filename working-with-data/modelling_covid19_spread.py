@@ -52,21 +52,44 @@ def mkframe(country):
     df.index = pd.to_datetime(df.index)
     return df
 
+
+# Investigate the data: finding infected, newly infected, percentage of the population, basic reproductive number etc
+def analyze_data(country):
+    df = mkframe(country)
+    # Calculate new infected
+    df['ninfected'] = df['infected'].diff()
+
+    # Plot data of specific month
+    #df[(df.index.year==2020) & (df.index.month==7)]['ninfected'].plot()
+    # Smoothen the curve to see the trends: for each day we will calculate the average value of the previous several days
+    df['ninfav'] = df['ninfected'].rolling(window=7).mean()
+
+    # Find population
+    pop = countries[(countries['Country_Region']==country) & (countries['Province_State'].isna())]['Population'].iloc[0]
+    df['pinfected'] = df['infected']*100 / pop
+
+    # Find Rt
+    # R0 is the basic reproductive number which indicates the number of people that an infected person would further infect
+    df['Rt']=df['ninfected'].rolling(8).apply(lambda x: x[4:].sum()/x[:4].sum())
+    # Replace NaN and inf values
+    #ax = df[df.index<'2020-05-01']['Rt'].replace(np.inf, np.nan).fillna(method='pad').plot(figsize=(10,3))
+    #ax.set_ylim([0,6]) # Limit y axis values to show values below 6
+    # Plot a doted line on 1 parallel to x-axis
+    #ax.axhline(1, linestyle='--', color='red')
+
+    # Find daily difference in new cases: this helps us to see clearly when pandemic is increasing or decreasing
+    #df['ninfected'].diff().plot()
+    # Smoothen the curve
+    #ax=df[df.index<"2020-06-01"]['ninfected'].diff().rolling(7).mean().plot()
+    #ax.axhline(0,linestyle='-.',color='red')
+    plt.show()
+    return df
+
+
 # Load the data of Epidemic spread of COVID-19
 (infected, recovered, deaths, countries) = get_covid19_spread_data()
 
 ## Investigating the data
 country = 'US'
-df = mkframe(country)
-# Calculate new infected
-df['ninfected'] = df['infected'].diff()
-# Plot data of specific month
-#df[(df.index.year==2020) & (df.index.month==7)]['ninfected'].plot()
-# Smoothen the curve to see the trends: for each day we will calculate the average value of the previous several days
-df['ninfav'] = df['ninfected'].rolling(window=7).mean()
-# Find population
-pop = countries[(countries['Country_Region']==country) & (countries['Province_State'].isna())]['Population'].iloc[0]
-df['pinfected'] = df['infected']*100 / pop
-df['pinfected'].plot()
-print(pop)
-plt.show()
+df = analyze_data(country)
+print(df)
