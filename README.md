@@ -20,12 +20,14 @@ Below is the list of programs implemented during this learning.
 4. numpy - is a library for working with tensors, i.e. multi-dimensional arrays
 5. pandas - allows you to manipulate so-called Dataframes, which are analogous to relational tables 
 6. SciPy - a library with additional scientific functions
+7. Plotly - a plotting library
+
 
 ## 🗃️ Topics
 | #    | Topic | **Programs/Assignments Link** | **Description** |
 | --- | ---------------|---------------------|-------------------|
 | 01 | Introduction | [Programs](./introduction/README.md) | a wikipedia text mining program, programs related to probability & statistics |   
-| 02 | Working with Data | [Programs](./working-with-data/README.md) | Relational Database, NoSQL Databases basics, Working with Series, DataFrames, Data Loading and Analysis (via COVID-19 data spread analysis through the World) | 
+| 02 | Working with Data | [Programs](./working-with-data/README.md) | Relational Database, NoSQL Databases basics, Working with Series, DataFrames, Data Loading and Analysis Structured Data (via COVID-19 data spread analysis through the World), Unstructured Data | 
 
 
 ## Create and Use Virtual Environment
