@@ -15,7 +15,9 @@ Once this
 [Python Program](./modelling_covid19_spread.py)
 
 
-** 3. Analyzing COVID-19 Papers**
+### 3. Analyzing COVID-19 Papers  
+[This is](./covid19_papers.py) an example of **Unstructured Data Processing** wherein we are analyzing COVID-19 papers for the trends and analysis.  
+
 Note that the data for analysis is not provided with this repo. The size of the file is 1.4GB and can be downloaded from [here](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases/cord-19_2020-04-10.tar.gz).
 
 
