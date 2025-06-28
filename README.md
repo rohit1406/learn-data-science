@@ -21,6 +21,7 @@ Below is the list of programs implemented during this learning.
 5. pandas - allows you to manipulate so-called Dataframes, which are analogous to relational tables 
 6. SciPy - a library with additional scientific functions
 7. Plotly - a plotting library
+8. scikit-learn - for predictive data analysis
 
 
 ## 🗃️ Topics
