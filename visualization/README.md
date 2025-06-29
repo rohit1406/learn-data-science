@@ -3,16 +3,23 @@ Couple of programs related to Data Science & **Data Visualization** topic. A vis
 
 ## List of Programs
 ### 1. Observe Wingspan of birds   
-[This program](./vis_quantity.py) demonstrates the usage Matplotlib library to observe the data of the birds from birds.csv file. It plots basic line plots, line plots with labelling on x, y coordinates, scatter chart to find outliners and to filter those outlines from the observation.  
+[This program](./vis_quantity.py) demonstrates the usage Matplotlib library to **observe** the data of the birds from birds.csv file. It plots basic line plots, line plots with labelling on x, y coordinates, scatter chart to find outliners and to filter those outlines from the observation.  
 <Img width="200" src="./output/quantity-visualization/lc-birds-wingspan-basic.png">
 <Img width="200" src="./output/quantity-visualization/lc-birds-wingspan-with-labels.png">
 <Img width="200" src="./output/quantity-visualization/sc-birds-wingspan-with-highlighting-outliners.png">
 <Img width="200" src="./output/quantity-visualization/sc-birds-wingspan-with-filtered-outliners.png">  
 
-Exploring the bar chart (showing grouping of data):  
+**Exploring the bar chart (showing grouping of data)**:  
 It plots the bar chart based on the number of birds based on category.  
 <Img width="300" src="./output/quantity-visualization/bc-birds-category.png">
-<Img width="300" src="./output/quantity-visualization/bc-birds-category-vertical-sorted.png">
+<Img width="300" src="./output/quantity-visualization/bc-birds-category-vertical-sorted.png">  
+
+**Comparing Data**:  
+Compare Max Length of a bird in each category and superimpose min, max length data per category.  
+<Img width="300" src="./output/quantity-visualization/comparing-maxlength-per-category.png">
+<Img width="300" src="./output/quantity-visualization/comparing-min-maxlength-per-category.png">  
+
+
 
 
 

@@ -45,6 +45,21 @@ def plot_bar_chart_birds_category_vertical():
     category_count = birds.value_counts(birds['Category'], sort=True)
     plt.rcParams['figure.figsize'] = [6, 12]
     category_count.plot.barh()
-    
-plot_bar_chart_birds_category_vertical()
+
+# Comparing Data
+# comparison of max length of a bird based on it's category
+def max_length_per_category():
+    maxlength = birds['MaxLength']
+    plt.barh(y=birds['Category'], width=maxlength)
+    plt.rcParams['figure.figsize'] = [6, 12]
+
+# superimporse minimum and maximum length on a given bird category
+def compare_bird_length_per_category():
+    minLength = birds['MinLength']
+    maxLength = birds['MaxLength']
+    category = birds['Category']
+    plt.barh(category, maxLength)
+    plt.barh(category, minLength)
+
+compare_bird_length_per_category()
 plt.show()
