@@ -2,8 +2,12 @@
 Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**.
 
 ## List of Programs
-### 1. Working with Series and DataFrames   
-[This program](./working_with_data_test.py) demonstrates the usage working with Series and DataFrames. It uses numpy and pandas library to perform some calculations on the Series of data and matplotlib to plot the graph from the data.
+### 1. Observe Wingspan of birds   
+[This program](./vis_quantity.py) demonstrates the usage Matplotlib library to observe the data of the birds from birds.csv file. It plots basic line plots, line plots with labelling on x, y coordinates, scatter chart to find outliners and to filter those outlines from the observation.  
+<Img width="200" src="./output/quantity-visualization/lc-birds-wingspan-basic.png">
+<Img width="200" src="./output/quantity-visualization/lc-birds-wingspan-with-labels.png">
+<Img width="200" src="./output/quantity-visualization/sc-birds-wingspan-with-highlighting-outliners.png">
+<Img width="200" src="./output/quantity-visualization/sc-birds-wingspan-with-filtered-outliners.png">
 
 
 ## Assignment and Solution
