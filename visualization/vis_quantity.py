@@ -8,12 +8,12 @@ wingspan = birds['MaxWingspan']
 def draw_basic_line_plot():
     wingspan.plot()
 
-plt.title('Max Wingspan in Centimeters')
-plt.ylabel('Wingspan (cm)')
-plt.xlabel('Birds')
 
 # Draw a basic line plot with labelling x,y axis
 def plot_xy_labels_with_rotation():
+    plt.title('Max Wingspan in Centimeters')
+    plt.ylabel('Wingspan (cm)')
+    plt.xlabel('Birds')
     plt.xticks(rotation=45)
     x = birds['Name']
     y = birds['MaxWingspan']
@@ -22,6 +22,9 @@ def plot_xy_labels_with_rotation():
 
 # plot scatter chart with labelling only outliners
 def plot_scatter_chart():
+    plt.title('Max Wingspan in Centimeters')
+    plt.ylabel('Wingspan (cm)')
+    plt.xlabel('Birds')
     # hide bottom labels
     plt.tick_params(axis='both', which='both', labelbottom=False, bottom=False)
     for i in range(len(birds)):
@@ -34,6 +37,6 @@ def plot_scatter_chart():
             plt.plot(x,y,'bo')
             
 
-
-plot_scatter_chart()
+# Plot a bar chart based on Category
+birds.plot(x='Category', kind='bar', stacked=True, title='Birds of Minnesota')
 plt.show()

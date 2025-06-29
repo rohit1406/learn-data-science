@@ -29,7 +29,7 @@ Below is the list of programs implemented during this learning.
 | --- | ---------------|---------------------|-------------------|
 | 01 | Introduction | [Programs](./introduction/README.md) | a wikipedia text mining program, programs related to probability & statistics |   
 | 02 | Working with Data | [Programs](./working-with-data/README.md) | Relational Database, NoSQL Databases basics, Working with Series, DataFrames, Data Loading and Dealing with Structured Data, Unstructured Data Processing | 
-| 03 | Working with Data | [Programs](./visualization/README.md) | Data Visualization techniques, visualizing quantities | 
+| 03 | Data Visualization Techniques | [Programs](./visualization/README.md) | Data Visualization techniques, visualizing quantities | 
 
 
 ## Create and Use Virtual Environment

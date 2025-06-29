@@ -7,7 +7,10 @@ Couple of programs related to Data Science & **Data Visualization** topic. A vis
 <Img width="200" src="./output/quantity-visualization/lc-birds-wingspan-basic.png">
 <Img width="200" src="./output/quantity-visualization/lc-birds-wingspan-with-labels.png">
 <Img width="200" src="./output/quantity-visualization/sc-birds-wingspan-with-highlighting-outliners.png">
-<Img width="200" src="./output/quantity-visualization/sc-birds-wingspan-with-filtered-outliners.png">
+<Img width="200" src="./output/quantity-visualization/sc-birds-wingspan-with-filtered-outliners.png">  
+
+Exploring the bar chart (showing grouping of data):  
+
 
 
 ## Assignment and Solution
