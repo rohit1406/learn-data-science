@@ -10,6 +10,9 @@ Couple of programs related to Data Science & **Data Visualization** topic. A vis
 <Img width="200" src="./output/quantity-visualization/sc-birds-wingspan-with-filtered-outliners.png">  
 
 Exploring the bar chart (showing grouping of data):  
+It plots the bar chart based on the number of birds based on category.  
+<Img width="300" src="./output/quantity-visualization/bc-birds-category.png">
+<Img width="300" src="./output/quantity-visualization/bc-birds-category-vertical-sorted.png">
 
 
 

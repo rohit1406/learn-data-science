@@ -38,8 +38,13 @@ def plot_scatter_chart():
             
 
 # Plot a bar chart based on Category
-category_count = birds.value_counts(birds['Category'], sort=True)
-plt.rcParams['figure.figsize'] = [6, 12]
-category_count.plot.barh()
-#birds.plot(x='Category', kind='bar', stacked=True, title='Birds of Minnesota')
+def plot_bar_chart_birds_category():
+    birds.plot(x='Category', kind='bar', stacked=True, title='Birds of Minnesota')
+
+def plot_bar_chart_birds_category_vertical():
+    category_count = birds.value_counts(birds['Category'], sort=True)
+    plt.rcParams['figure.figsize'] = [6, 12]
+    category_count.plot.barh()
+    
+plot_bar_chart_birds_category_vertical()
 plt.show()
