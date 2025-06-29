@@ -22,7 +22,7 @@ Note that the data for analysis is not provided with this repo. The size of the 
 
 
 ### 4. Data Preparation
-The [program](./data_preparation.py) demonstrates how to start with the exploration of the data in the dataframe. The exploration involves getting information such as datapoints, features, datatypes, count of nulls/non-nulls, fetching first/last few rows and displaying for analysis, etc. This example also show how to identify, remove, replace missing data in Series, DataFrames. Duplicate data finding and removal is also demonstrated. Also, label encoding and one hot encoding is shown.
+The [program](./data_preparation.py) demonstrates how to start with the exploration of the data in the dataframe. The exploration involves getting information such as datapoints, features, datatypes, count of nulls/non-nulls, fetching first/last few rows and displaying for analysis, etc. This example also show how to identify, remove, replace missing data, null data in Series, DataFrames. Duplicate data finding and removal is also demonstrated. Also, label encoding and one hot encoding is shown.
 
 
 ## Assignment and Solution

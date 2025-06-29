@@ -28,7 +28,8 @@ Below is the list of programs implemented during this learning.
 | #    | Topic | **Programs/Assignments Link** | **Description** |
 | --- | ---------------|---------------------|-------------------|
 | 01 | Introduction | [Programs](./introduction/README.md) | a wikipedia text mining program, programs related to probability & statistics |   
-| 02 | Working with Data | [Programs](./working-with-data/README.md) | Relational Database, NoSQL Databases basics, Working with Series, DataFrames, Data Loading and Analysis Structured Data (via COVID-19 data spread analysis through the World), Unstructured Data Processing | 
+| 02 | Working with Data | [Programs](./working-with-data/README.md) | Relational Database, NoSQL Databases basics, Working with Series, DataFrames, Data Loading and Dealing with Structured Data, Unstructured Data Processing | 
+| 03 | Working with Data | [Programs](./visualization/README.md) | Data Visualization techniques, visualizing quantities | 
 
 
 ## Create and Use Virtual Environment
