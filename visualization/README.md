@@ -23,7 +23,12 @@ Compare Max Length of a bird in each category and superimpose min, max length da
 ### 2. Visualizing Distribution: Exploring the birds dataset
 [This program](./vis_distribution.py) demonstrates the another way to dig into data by it's distribution i.e. how the data is organized along an axis.  
 General Distribution of **max length per bird order** is demonstrated in below **scatter plot**.  
-<Img width="200" src="./output/distribution/sc-dis-order-maxlen.png">  
+<Img width="300" src="./output/distribution/sc-dis-order-maxlen.png">  
+Following **Histogram** shows the distribution of max body mass.  
+<Img width="250" src="./output/distribution/hist-dis-maxbodymass.png">   
+<Img width="250" src="./output/distribution/hist-dis-maxbodymass-b20.png">   
+<Img width="250" src="./output/distribution/hist-dis-maxbodymass-b30.png">   
+<Img width="250" src="./output/distribution/hist-dis-maxbodymass-below60-b40.png">  
 
 
 ## Assignment and Solution

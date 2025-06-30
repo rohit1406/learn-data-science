@@ -4,12 +4,20 @@ import matplotlib.pyplot as plt
 # import the data
 birds = pd.read_csv('./data/birds.csv')
 
-# draw a scatter plot
+# draw a scatter plot to show distribution of max length per bird order
 def draw_sp_maxlength_per_order():
     birds.plot(kind='scatter', x='MaxLength', y='Order', figsize=(12,8))
     plt.title('Max Length per Order')
     plt.xlabel('Max Length')
     plt.ylabel('Order')
-    
-draw_sp_maxlength_per_order()
+
+# Histogram showing distribution of max body mass
+def draw_hist_maxbodymass():
+    filtered_birds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]
+    filtered_birds['MaxBodyMass'].plot(kind='hist', bins=40, figsize=(12,12))
+    plt.title('MaxBodyMass distribution: mass < 60, bins=40')
+    plt.xlabel('Max Body Mass')
+    plt.ylabel('Count')
+
+draw_hist_maxbodymass()
 plt.show()
