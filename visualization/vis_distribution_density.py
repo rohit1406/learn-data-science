@@ -22,5 +22,10 @@ def draw_dp_maxbodymass_per_order():
                 alpha=0.5, linewidth=0)
     plt.title('Density plot: MaxBodyMass per bird Order')
 
-draw_dp_maxbodymass_per_order()
+# Map the density of several variables (MaxLength, MinLength of birds) in one chart
+def draw_dep_map_several_var():
+    sns.kdeplot(data=filtered_birds, x='MinLength', y='MaxLength', hue="ConservationStatus")
+    plt.title('Density plot: map MaxLength and MinLength in single chart')
+
+draw_dep_map_several_var()
 plt.show()

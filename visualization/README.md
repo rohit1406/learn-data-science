@@ -50,6 +50,9 @@ Density plot of **MinWingspan and MaxBodyMass** is as below.
 Density plot of **MaxBodyMass per bird Order**:  
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass-per-order.png'>  
 
+Map several fields (MaxLength, MinLength of a bird) in a single chart:  
+<Img width="300" src='./output/distribution/dp-dist-map-several-fields.png'>  
+
 ## Assignment and Solution
 1. Assignment 1:   
 
