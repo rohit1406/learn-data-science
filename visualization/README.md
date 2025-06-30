@@ -29,7 +29,7 @@ Following **Histogram** shows the distribution of max body mass.
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-b20.png">   
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-b30.png">   
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-below60-b40.png">  
-
+<Img width="300" src="./output/distribution/hist-dis-full-below60-b40.png">  
 
 ## Assignment and Solution
 1. Assignment 1:   

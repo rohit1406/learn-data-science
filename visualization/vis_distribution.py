@@ -11,11 +11,11 @@ def draw_sp_maxlength_per_order():
     plt.xlabel('Max Length')
     plt.ylabel('Order')
 
-# Histogram showing distribution of max body mass
+# Histogram showing full distribution
 def draw_hist_maxbodymass():
     filtered_birds = birds[(birds['MaxBodyMass'] > 1) & (birds['MaxBodyMass'] < 60)]
-    filtered_birds['MaxBodyMass'].plot(kind='hist', bins=40, figsize=(12,12))
-    plt.title('MaxBodyMass distribution: mass < 60, bins=40')
+    filtered_birds.plot(kind='hist', bins=40, figsize=(12,12))
+    plt.title('Full distribution: bodymass < 60, bins=40')
     plt.xlabel('Max Body Mass')
     plt.ylabel('Count')
 
