@@ -1,8 +1,8 @@
 ## Description
-Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**.
+Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**, data distribution.
 
 ## List of Programs
-### 1. Observe Wingspan of birds   
+### 1. Visualizing Quantity: Observe Wingspan of birds   
 [This program](./vis_quantity.py) demonstrates the usage Matplotlib library to **observe** the data of the birds from birds.csv file. It plots basic line plots, line plots with labelling on x, y coordinates, scatter chart to find outliners and to filter those outlines from the observation.  
 <Img width="200" src="./output/quantity-visualization/lc-birds-wingspan-basic.png">
 <Img width="200" src="./output/quantity-visualization/lc-birds-wingspan-with-labels.png">
@@ -20,7 +20,10 @@ Compare Max Length of a bird in each category and superimpose min, max length da
 <Img width="300" src="./output/quantity-visualization/comparing-min-maxlength-per-category.png">  
 
 
-
+### 2. Visualizing Distribution: Exploring the birds dataset
+[This program](./vis_distribution.py) demonstrates the another way to dig into data by it's distribution i.e. how the data is organized along an axis.  
+General Distribution of **max length per bird order** is demonstrated in below **scatter plot**.  
+<Img width="200" src="./output/distribution/sc-dis-order-maxlen.png">  
 
 
 ## Assignment and Solution
