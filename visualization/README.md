@@ -39,6 +39,13 @@ Digging into conservation information such as genus, species, family as well as 
 **Conservation Status vs MinWingspan**:  
 <Img width="300" src="./output/distribution/hist-conservationstatus-vs-minwingspan.png">  
 
+
+### 3. Density plot
+To show smoother density chart, use density plot. [This Program](./vis_distribution_density.py) show how to draw density plots. 
+Density plot of **MinWingspan and MaxBodyMass** is as below.  
+<Img width="300" src='./output/distribution/dp-dist-minwingspan.png'>   
+<Img width="300" src='./output/distribution/dp-dist-maxbodymass.png'>  
+
 ## Assignment and Solution
 1. Assignment 1:   
 

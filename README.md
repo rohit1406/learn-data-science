@@ -22,6 +22,7 @@ Below is the list of programs implemented during this learning.
 6. SciPy - a library with additional scientific functions
 7. Plotly - a plotting library
 8. scikit-learn - for predictive data analysis
+9. seaborn - Seaborn is a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures.  
 
 
 ## 🗃️ Topics
