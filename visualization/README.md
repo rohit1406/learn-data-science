@@ -31,6 +31,14 @@ Following **Histogram** shows the distribution of max body mass.
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-below60-b40.png">  
 <Img width="300" src="./output/distribution/hist-dis-full-below60-b40.png">  
 
+Comparison: **MaxBodyMass vs MaxLength**  
+<Img width="300" src="./output/distribution/hist-maxbodymass-vs-maxlength.png">  
+
+**Distribution according to textual data**:  
+Digging into conservation information such as genus, species, family as well as conservation status.  
+**Conservation Status vs MinWingspan**:  
+<Img width="300" src="./output/distribution/hist-conservationstatus-vs-minwingspan.png">  
+
 ## Assignment and Solution
 1. Assignment 1:   
 
