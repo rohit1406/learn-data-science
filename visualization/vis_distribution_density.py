@@ -12,7 +12,7 @@ def draw_dp_basic_minwingspan():
 
 # Draw a density plot of MaxBodyMass
 def draw_dp_maxbodymass():
-    sns.kdeplot(filtered_birds['MaxBodyMass'])
+    sns.kdeplot(filtered_birds['MaxBodyMass'], bw_adjust=0.2)
     plt.title('Density plot: MaxBodyMass')
 
 draw_dp_maxbodymass()

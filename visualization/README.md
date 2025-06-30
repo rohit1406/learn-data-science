@@ -45,6 +45,7 @@ To show smoother density chart, use density plot. [This Program](./vis_distribut
 Density plot of **MinWingspan and MaxBodyMass** is as below.  
 <Img width="300" src='./output/distribution/dp-dist-minwingspan.png'>   
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass.png'>  
+<Img width="300" src='./output/distribution/dp-dist-maxbodymass-nososmooth.png'>  
 
 ## Assignment and Solution
 1. Assignment 1:   
