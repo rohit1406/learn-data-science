@@ -25,10 +25,10 @@ Compare Max Length of a bird in each category and superimpose min, max length da
 General Distribution of **max length per bird order** is demonstrated in below **scatter plot**.  
 <Img width="300" src="./output/distribution/sc-dis-order-maxlen.png">  
 Following **Histogram** shows the distribution of max body mass.  
-<Img width="250" src="./output/distribution/hist-dis-maxbodymass.png">   
-<Img width="250" src="./output/distribution/hist-dis-maxbodymass-b20.png">   
-<Img width="250" src="./output/distribution/hist-dis-maxbodymass-b30.png">   
-<Img width="250" src="./output/distribution/hist-dis-maxbodymass-below60-b40.png">  
+<Img width="250" src="./output/distribution/hist-dis-maxbodymass.png">
+<Img width="250" src="./output/distribution/hist-dis-maxbodymass-b20.png">
+<Img width="250" src="./output/distribution/hist-dis-maxbodymass-b30.png">
+<Img width="250" src="./output/distribution/hist-dis-maxbodymass-below60-b40.png">
 <Img width="300" src="./output/distribution/hist-dis-full-below60-b40.png">  
 
 Comparison: **MaxBodyMass vs MaxLength**  
@@ -41,20 +41,17 @@ Digging into conservation information such as genus, species, family as well as 
 
 
 ### 3. Density plot
-To show smoother density chart, use density plot. [This Program](./vis_distribution_density.py) show how to draw density plots. 
+To show smoother density chart, use density plot. [This Program](./vis_distribution_density.py) show how to draw density plots.   
 Density plot of **MinWingspan and MaxBodyMass** is as below.  
-<Img width="300" src='./output/distribution/dp-dist-minwingspan.png'>   
-<Img width="300" src='./output/distribution/dp-dist-maxbodymass.png'>  
+<Img width="300" src='./output/distribution/dp-dist-minwingspan.png'>
+<Img width="300" src='./output/distribution/dp-dist-maxbodymass.png'>
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass-nososmooth.png'>  
 
 Density plot of **MaxBodyMass per bird Order**:  
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass-per-order.png'>  
 
-Map several fields (MaxLength, MinLength of a bird) in a single chart:  
+**Map several fields** (MaxLength, MinLength of a bird) in a single chart:  
 <Img width="300" src='./output/distribution/dp-dist-map-several-fields.png'>  
-
-## Assignment and Solution
-1. Assignment 1:   
 
 
 ## Related Knowledge
