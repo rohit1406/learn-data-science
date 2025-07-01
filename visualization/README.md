@@ -76,6 +76,15 @@ To show smoother density chart, use density plot. [This Program](./vis_distribut
 <Img width="300" src="./output/relationships/rel-sp-ppl-vs-state-colored.png">
 <Img width="300" src="./output/relationships/rel-sp-ppl-vs-state-sized.png">   
 
+
+#### Relationship between Price per pount and totalProduction over the years
+<Img width="300" src="./output/relationships/rel-lc-progression-ppp-year.png">
+<Img width="300" src="./output/relationships/rel-lc-progression-honeyprod-year.png">  
+
+
+
+
+
 ## Related Knowledge
 Use the best chart to suit your data's structure and the story you want to tell.  
 
