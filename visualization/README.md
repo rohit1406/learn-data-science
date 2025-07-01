@@ -1,5 +1,5 @@
 ## Description
-Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**, data distribution using Histograms and Density plots, proportions.
+Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**, data distribution using **Histograms and Density plots**, proportions using **pie charts, donut charts and waffle charts**.
 
 ## List of Programs
 ### 1. Visualizing Quantity: Observe Wingspan of birds   
@@ -9,12 +9,12 @@ Couple of programs related to Data Science & **Data Visualization** topic. A vis
 <Img width="200" src="./output/quantity-visualization/sc-birds-wingspan-with-highlighting-outliners.png">
 <Img width="200" src="./output/quantity-visualization/sc-birds-wingspan-with-filtered-outliners.png">  
 
-**Exploring the bar chart (showing grouping of data)**:  
+#### **Exploring the bar chart (showing grouping of data)**:  
 It plots the bar chart based on the number of birds based on category.  
 <Img width="300" src="./output/quantity-visualization/bc-birds-category.png">
 <Img width="300" src="./output/quantity-visualization/bc-birds-category-vertical-sorted.png">  
 
-**Comparing Data**:  
+#### **Comparing Data**:  
 Compare Max Length of a bird in each category and superimpose min, max length data per category.  
 <Img width="300" src="./output/quantity-visualization/comparing-maxlength-per-category.png">
 <Img width="300" src="./output/quantity-visualization/comparing-min-maxlength-per-category.png">  
@@ -22,19 +22,21 @@ Compare Max Length of a bird in each category and superimpose min, max length da
 
 ### 2. Visualizing Distribution: Exploring the birds dataset
 [This program](./vis_distribution.py) demonstrates the another way to dig into data by it's distribution i.e. how the data is organized along an axis.  
-General Distribution of **max length per bird order** is demonstrated in below **scatter plot**.  
+
+#### General Distribution of **max length per bird order** is demonstrated in below **scatter plot**.  
 <Img width="300" src="./output/distribution/sc-dis-order-maxlen.png">  
-Following **Histogram** shows the distribution of max body mass.  
+
+#### Following **Histogram** shows the distribution of max body mass.  
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass.png">
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-b20.png">
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-b30.png">
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-below60-b40.png">
 <Img width="300" src="./output/distribution/hist-dis-full-below60-b40.png">  
 
-Comparison: **MaxBodyMass vs MaxLength**  
+#### Comparison: **MaxBodyMass vs MaxLength**  
 <Img width="300" src="./output/distribution/hist-maxbodymass-vs-maxlength.png">  
 
-**Distribution according to textual data**:  
+#### **Distribution according to textual data**:  
 Digging into conservation information such as genus, species, family as well as conservation status.  
 **Conservation Status vs MinWingspan**:  
 <Img width="300" src="./output/distribution/hist-conservationstatus-vs-minwingspan.png">  
@@ -42,24 +44,28 @@ Digging into conservation information such as genus, species, family as well as 
 
 ### 3. Density plot
 To show smoother density chart, use density plot. [This Program](./vis_distribution_density.py) show how to draw density plots.   
-Density plot of **MinWingspan and MaxBodyMass** is as below.  
+#### Density plot of **MinWingspan and MaxBodyMass** is as below.  
 <Img width="300" src='./output/distribution/dp-dist-minwingspan.png'>
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass.png'>
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass-nososmooth.png'>  
 
-Density plot of **MaxBodyMass per bird Order**:  
+#### Density plot of **MaxBodyMass per bird Order**:  
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass-per-order.png'>  
 
-**Map several fields** (MaxLength, MinLength of a bird) in a single chart:  
+#### **Map several fields** (MaxLength, MinLength of a bird) in a single chart:  
 <Img width="300" src='./output/distribution/dp-dist-map-several-fields.png'>  
 
 
 ### 4. Visualize Proportions
 [This program](./vis_proportion.py) demonstrates the analysis and visualization of [mushrooms data](../data/mushrooms.csv).  
-**Mushrooms population** is shown with below pie chart. 
-<Img width="300" src="./output/proportion/pro-pie-mushrooms-population.png">  
-**Mushrooms Habitat** is shown with below donut chart.  
+#### **Mushrooms population** is shown with below **pie chart**. 
+<Img width="300" src="./output/proportion/pro-pie-mushrooms-population.png">   
+
+#### **Mushrooms Habitat** is shown with below **donut chart**.  
 <Img width="300" src="./output/proportion/pro-donut-mushrooms-habitat.png">  
+
+#### **Mushrooms cap colors** is displayed with below **Waffle chart**
+<Img widht="300" src="./output/proportion/pro-waffle-mushrooms-capcolors.png">  
 
 ## Related Knowledge
 Use the best chart to suit your data's structure and the story you want to tell.  

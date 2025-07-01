@@ -23,6 +23,7 @@ Below is the list of programs implemented during this learning.
 7. Plotly - a plotting library
 8. scikit-learn - for predictive data analysis
 9. seaborn - Seaborn is a library for making statistical graphics in Python. It builds on top of matplotlib and integrates closely with pandas data structures.  
+10. PyWaffle - to draw a 'waffle' type chart which is a different way to visualize quantities as a 2D array of squares.
 
 
 ## 🗃️ Topics
