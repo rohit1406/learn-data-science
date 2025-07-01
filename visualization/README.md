@@ -58,6 +58,8 @@ Density plot of **MaxBodyMass per bird Order**:
 [This program](./vis_proportion.py) demonstrates the analysis and visualization of [mushrooms data](../data/mushrooms.csv).  
 **Mushrooms population** is shown with below pie chart. 
 <Img width="300" src="./output/proportion/pro-pie-mushrooms-population.png">  
+**Mushrooms Habitat** is shown with below donut chart.  
+<Img width="300" src="./output/proportion/pro-donut-mushrooms-habitat.png">  
 
 ## Related Knowledge
 Use the best chart to suit your data's structure and the story you want to tell.  
