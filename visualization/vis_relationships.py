@@ -10,5 +10,15 @@ def draw_sp_ppp_vs_state():
     sns.relplot(x='priceperlb', y='state', data=honey, height=5, aspect=0.5)
     plt.title('State vs Price Per Pound')
 
-draw_sp_ppp_vs_state()
+# draw Scatter plot: show PPP vs origin State with color scheme
+def draw_sp_ppp_vs_state_colored():
+    sns.relplot(x='priceperlb', y='state', data=honey, hue='year', palette='YlOrBr', height=5, aspect=0.5)
+    plt.title('State vs Price Per Pound with Color')
+
+    # draw Scatter plot: show PPP vs origin State with size
+def draw_sp_ppp_vs_state_sized():
+    sns.relplot(x='priceperlb', y='state', data=honey, size='year', palette='YlOrBr', height=5, aspect=0.5)
+    plt.title('State vs Price Per Pound with Size')
+
+draw_sp_ppp_vs_state_sized()
 plt.show()

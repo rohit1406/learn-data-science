@@ -72,7 +72,9 @@ To show smoother density chart, use density plot. [This Program](./vis_distribut
 [This program](./vis_relationships.py) shows the relationship between various factors of [data of honey production in US](../data/honey.csv).
 
 #### Relationship between the Price per pound and it's US state of origin
-<Img width="300" src="./output/relationships/rel-sp-ppl-vs-state.png">  
+<Img width="300" src="./output/relationships/rel-sp-ppl-vs-state.png">
+<Img width="300" src="./output/relationships/rel-sp-ppl-vs-state-colored.png">
+<Img width="300" src="./output/relationships/rel-sp-ppl-vs-state-sized.png">   
 
 ## Related Knowledge
 Use the best chart to suit your data's structure and the story you want to tell.  
