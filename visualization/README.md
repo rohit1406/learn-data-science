@@ -1,5 +1,5 @@
 ## Description
-Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**, data distribution using **Histograms and Density plots**, proportions using **pie charts, donut charts and waffle charts, Scatter plots, line charts, Facet grids, Dual-line plots**.
+Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. Prior to visualizing your data, you need to ensure that it has been cleaned and prepared. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**, data distribution using **Histograms and Density plots**, proportions using **pie charts, donut charts and waffle charts, Scatter plots, line charts, Facet grids, Dual-line plots**.
 
 ## List of Programs
 ### 1. Visualizing Quantity: with Birds dataset   
@@ -27,11 +27,12 @@ Compare Max Length of a bird in each category and superimpose min, max length da
 <Img width="300" src="./output/distribution/sc-dis-order-maxlen.png">  
 
 #### Following **Histogram** shows the distribution of max body mass.  
+Below are the comparison images:  
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass.png">
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-b20.png">
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-b30.png">
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-below60-b40.png">
-<Img width="300" src="./output/distribution/hist-dis-full-below60-b40.png">
+<Img width="250" src="./output/distribution/hist-dis-full-below60-b40.png">
 
 #### Comparison: **MaxBodyMass vs MaxLength**  
 <Img width="300" src="./output/distribution/hist-maxbodymass-vs-maxlength.png">
@@ -44,15 +45,19 @@ Digging into conservation information such as genus, species, family as well as 
 
 ### 3. Density plot: with birds dataset
 To show smoother density chart, use density plot. [This Program](./vis_distribution_density.py) show how to draw density plots.   
+
 #### Density plot of **MinWingspan and MaxBodyMass** is as below.  
+
 <Img width="300" src='./output/distribution/dp-dist-minwingspan.png'>
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass.png'>
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass-nososmooth.png'>
 
 #### Density plot of **MaxBodyMass per bird Order**:  
+
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass-per-order.png'>
 
 #### **Map several fields** (MaxLength, MinLength of a bird) in a single chart:  
+
 <Img width="300" src='./output/distribution/dp-dist-map-several-fields.png'>
 
 
@@ -72,12 +77,14 @@ To show smoother density chart, use density plot. [This Program](./vis_distribut
 [This program](./vis_relationships.py) shows the relationship between various factors of [data of honey production in US](../data/honey.csv).
 
 #### Relationship between the Price per pound and it's US state of origin
+Below are the comparison images:  
 <Img width="300" src="./output/relationships/rel-sp-ppl-vs-state.png">
 <Img width="300" src="./output/relationships/rel-sp-ppl-vs-state-colored.png">
 <Img width="300" src="./output/relationships/rel-sp-ppl-vs-state-sized.png">
 
 
 #### Relationship between Price per pount and totalProduction over the years
+Below are the comparison images:  
 <Img width="300" src="./output/relationships/rel-lc-progression-ppp-year.png">
 <Img width="300" src="./output/relationships/rel-lc-progression-honeyprod-year.png">
 
