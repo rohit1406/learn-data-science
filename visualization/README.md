@@ -2,7 +2,7 @@
 Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**, data distribution using **Histograms and Density plots**, proportions using **pie charts, donut charts and waffle charts**.
 
 ## List of Programs
-### 1. Visualizing Quantity: Observe Wingspan of birds   
+### 1. Visualizing Quantity: with Birds dataset   
 [This program](./vis_quantity.py) demonstrates the usage Matplotlib library to **observe** the data of the birds from [birds.csv](../data/birds.csv) file. It plots basic line plots, line plots with labelling on x, y coordinates, scatter chart to find outliners and to filter those outlines from the observation.  
 <Img width="200" src="./output/quantity-visualization/lc-birds-wingspan-basic.png">
 <Img width="200" src="./output/quantity-visualization/lc-birds-wingspan-with-labels.png">
@@ -42,7 +42,7 @@ Digging into conservation information such as genus, species, family as well as 
 <Img width="300" src="./output/distribution/hist-conservationstatus-vs-minwingspan.png">  
 
 
-### 3. Density plot
+### 3. Density plot: with birds dataset
 To show smoother density chart, use density plot. [This Program](./vis_distribution_density.py) show how to draw density plots.   
 #### Density plot of **MinWingspan and MaxBodyMass** is as below.  
 <Img width="300" src='./output/distribution/dp-dist-minwingspan.png'>
@@ -56,8 +56,8 @@ To show smoother density chart, use density plot. [This Program](./vis_distribut
 <Img width="300" src='./output/distribution/dp-dist-map-several-fields.png'>  
 
 
-### 4. Visualize Proportions
-[This program](./vis_proportion.py) demonstrates the analysis and visualization of [mushrooms data](../data/mushrooms.csv).  
+### 4. Visualize Proportions: with Mushrooms dataset
+[This program](./vis_proportion.py) demonstrates the analysis and visualization of [mushrooms data](../data/mushrooms.csv). First, you need to group your data into categories and then decide which is the best way to display the data - pie, donut, or waffle.    
 #### **Mushrooms population** is shown with below **pie chart**. 
 <Img width="300" src="./output/proportion/pro-pie-mushrooms-population.png">   
 
@@ -66,6 +66,13 @@ To show smoother density chart, use density plot. [This Program](./vis_distribut
 
 #### **Mushrooms cap colors** is displayed with below **Waffle chart**
 <Img widht="300" src="./output/proportion/pro-waffle-mushrooms-capcolors.png">  
+
+
+### 5. Visualizing Relationships: All About Honey
+[This program](./vis_relationships.py) shows the relationship between various factors of [data of honey production in US](../data/honey.csv).
+
+#### Relationship between the Price per pound and it's US state of origin
+<Img width="300" src="./output/relationships/rel-sp-ppl-vs-state.png">  
 
 ## Related Knowledge
 Use the best chart to suit your data's structure and the story you want to tell.  
