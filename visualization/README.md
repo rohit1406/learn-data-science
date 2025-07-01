@@ -31,10 +31,10 @@ Compare Max Length of a bird in each category and superimpose min, max length da
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-b20.png">
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-b30.png">
 <Img width="250" src="./output/distribution/hist-dis-maxbodymass-below60-b40.png">
-<Img width="300" src="./output/distribution/hist-dis-full-below60-b40.png">  
+<Img width="300" src="./output/distribution/hist-dis-full-below60-b40.png">
 
 #### Comparison: **MaxBodyMass vs MaxLength**  
-<Img width="300" src="./output/distribution/hist-maxbodymass-vs-maxlength.png">  
+<Img width="300" src="./output/distribution/hist-maxbodymass-vs-maxlength.png">
 
 #### **Distribution according to textual data**:  
 Digging into conservation information such as genus, species, family as well as conservation status.  
@@ -47,13 +47,13 @@ To show smoother density chart, use density plot. [This Program](./vis_distribut
 #### Density plot of **MinWingspan and MaxBodyMass** is as below.  
 <Img width="300" src='./output/distribution/dp-dist-minwingspan.png'>
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass.png'>
-<Img width="300" src='./output/distribution/dp-dist-maxbodymass-nososmooth.png'>  
+<Img width="300" src='./output/distribution/dp-dist-maxbodymass-nososmooth.png'>
 
 #### Density plot of **MaxBodyMass per bird Order**:  
-<Img width="300" src='./output/distribution/dp-dist-maxbodymass-per-order.png'>  
+<Img width="300" src='./output/distribution/dp-dist-maxbodymass-per-order.png'>
 
 #### **Map several fields** (MaxLength, MinLength of a bird) in a single chart:  
-<Img width="300" src='./output/distribution/dp-dist-map-several-fields.png'>  
+<Img width="300" src='./output/distribution/dp-dist-map-several-fields.png'>
 
 
 ### 4. Visualize Proportions: with Mushrooms dataset
@@ -74,16 +74,16 @@ To show smoother density chart, use density plot. [This Program](./vis_distribut
 #### Relationship between the Price per pound and it's US state of origin
 <Img width="300" src="./output/relationships/rel-sp-ppl-vs-state.png">
 <Img width="300" src="./output/relationships/rel-sp-ppl-vs-state-colored.png">
-<Img width="300" src="./output/relationships/rel-sp-ppl-vs-state-sized.png">   
+<Img width="300" src="./output/relationships/rel-sp-ppl-vs-state-sized.png">
 
 
 #### Relationship between Price per pount and totalProduction over the years
 <Img width="300" src="./output/relationships/rel-lc-progression-ppp-year.png">
-<Img width="300" src="./output/relationships/rel-lc-progression-honeyprod-year.png">  
+<Img width="300" src="./output/relationships/rel-lc-progression-honeyprod-year.png">
 
 
 #### Yield Per Colonies and Number of Colonies over the years
-<Img src="./output/relationships/comparison-ypc-noc-overyears.png">  
+<Img src="./output/relationships/comparison-ypc-noc-overyears.png">
 
 #### Dual-line plot
 <Img src="./output/relationships/dual-line-plot.png">    
