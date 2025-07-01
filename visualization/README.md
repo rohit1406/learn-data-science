@@ -82,7 +82,8 @@ To show smoother density chart, use density plot. [This Program](./vis_distribut
 <Img width="300" src="./output/relationships/rel-lc-progression-honeyprod-year.png">  
 
 
-
+#### Yield Per Colonies and Number of Colonies over the years
+<Img src="./output/relationships/comparison-ypc-noc-overyears.png">
 
 
 ## Related Knowledge

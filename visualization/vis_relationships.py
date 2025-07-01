@@ -31,5 +31,11 @@ def draw_lc_ppp_year():
     sns.relplot(x="year", y="totalprod", data=honey, kind='line')
     plt.title('Honey Production over the years')
 
-draw_lc_ppp_year()
+# Facet Grid: to discover why there is a spike in the price of honey around 2003
+# Compare yield per colony and number of colanies over the year
+def draw_facet_grid_year():
+    sns.relplot(data=honey, x="yieldpercol", y="numcol",
+                col="year", col_wrap=3, kind='line')
+
+draw_facet_grid_year()
 plt.show()
