@@ -83,8 +83,10 @@ To show smoother density chart, use density plot. [This Program](./vis_distribut
 
 
 #### Yield Per Colonies and Number of Colonies over the years
-<Img src="./output/relationships/comparison-ypc-noc-overyears.png">
+<Img src="./output/relationships/comparison-ypc-noc-overyears.png">  
 
+#### Dual-line plot
+<Img src="./output/relationships/dual-line-plot.png">    
 
 ## Related Knowledge
 Use the best chart to suit your data's structure and the story you want to tell.  

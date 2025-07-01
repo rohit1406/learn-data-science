@@ -37,5 +37,21 @@ def draw_facet_grid_year():
     sns.relplot(data=honey, x="yieldpercol", y="numcol",
                 col="year", col_wrap=3, kind='line')
 
-draw_facet_grid_year()
+# Dual-line plots: Superimpose two line plots on top of each other
+def dual_line_plot():
+    fig, ax = plt.subplots(figsize=(12,6))
+    lineplot = sns.lineplot(x=honey['year'], y=honey['numcol'], data=honey,
+                            label='Number of bee colonies', legend=False)
+    sns.despine()
+    plt.ylabel('# colonies')
+    plt.title('Honey Production year over year')
+
+    ax2 = ax.twinx()
+    lineplot2 = sns.lineplot(x=honey['year'], y=honey['yieldpercol'], ax=ax2, color='r',
+                            label='Yield per colony', legend=False)
+    sns.despine(right=False)
+    plt.ylabel('colony yield')
+    ax.figure.legend()
+
+dual_line_plot()
 plt.show()
