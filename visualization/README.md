@@ -1,5 +1,5 @@
 ## Description
-Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**, data distribution using **Histograms and Density plots**, proportions using **pie charts, donut charts and waffle charts**.
+Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**, data distribution using **Histograms and Density plots**, proportions using **pie charts, donut charts and waffle charts, Scatter plots, line charts, Facet grids, Dual-line plots**.
 
 ## List of Programs
 ### 1. Visualizing Quantity: with Birds dataset   
