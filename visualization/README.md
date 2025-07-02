@@ -1,5 +1,5 @@
 ## Description
-Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. Prior to visualizing your data, you need to ensure that it has been cleaned and prepared. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**, data distribution using **Histograms and Density plots**, proportions using **pie charts, donut charts and waffle charts, Scatter plots, line charts, Facet grids, Dual-line plots**.
+Couple of programs related to Data Science & **Data Visualization** topic. A visualization can help you identify all kinds of interesting parts of your data such as spikes, outliers, groupings, tendencies, and more, that can help you understand the story your data is trying to tell. Prior to visualizing your data, you need to ensure that it has been cleaned and prepared. After that, you can start deciding how best to present the data. In this part we will learn how to create interesting visualizations all around the concept of quantity using **line charts, scatterplots, bar plots**, data distribution using **Histograms and Density plots**, proportions using **pie charts, donut charts and waffle charts, Scatter plots, line charts, Facet grids, Dual-line plots**.
 
 ## List of Programs
 ### 1. Visualizing Quantity: with Birds dataset   
@@ -47,7 +47,7 @@ Digging into conservation information such as genus, species, family as well as 
 To show smoother density chart, use density plot. [This Program](./vis_distribution_density.py) show how to draw density plots.   
 
 #### Density plot of **MinWingspan and MaxBodyMass** is as below.  
-
+Below are the comparison images:  
 <Img width="300" src='./output/distribution/dp-dist-minwingspan.png'>
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass.png'>
 <Img width="300" src='./output/distribution/dp-dist-maxbodymass-nososmooth.png'>
@@ -95,15 +95,21 @@ Below are the comparison images:
 #### Dual-line plot
 <Img src="./output/relationships/dual-line-plot.png">    
 
+
+### 6. Dangerous Liaisons data visualization project
+[Project Link](./sample-network-app/README.md)  
+
 ## Related Knowledge
 Use the best chart to suit your data's structure and the story you want to tell.  
 
 1. To analyze trends over time: line  
 2. To compare values: bar, column, pie, scatterplot  
-3. To show how parts relate to a whole: pie  
-4. To show distribution of data: scatterplot, bar  
-5. To show trends: line, column  
-6. To show relationships between values: line, scatterplot, bubble  
+3. To compare categories: Bar, pie  
+4. To compare totals: Pie, Stacked Bar
+5. To show distribution of data: scatterplot, hostogram, box, bar  
+6. To show trends: line, column  
+7. To show relationships between values: line, scatterplot, facet, dual-line, bubble  
+8. Show proportions: Pie, Donut, Waffle
 
 [Matplotlib Cheatsheets](https://matplotlib.org/cheatsheets/cheatsheets.pdf)  
 
