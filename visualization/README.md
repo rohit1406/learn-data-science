@@ -99,19 +99,6 @@ Below are the comparison images:
 ### 6. Dangerous Liaisons data visualization project
 [Project Link](./sample-network-app/README.md)  
 
-## Related Knowledge
-Use the best chart to suit your data's structure and the story you want to tell.  
-
-1. To analyze trends over time: line  
-2. To compare values: bar, column, pie, scatterplot  
-3. To compare categories: Bar, pie  
-4. To compare totals: Pie, Stacked Bar
-5. To show distribution of data: scatterplot, hostogram, box, bar  
-6. To show trends: line, column  
-7. To show relationships between values: line, scatterplot, facet, dual-line, bubble  
-8. Show proportions: Pie, Donut, Waffle
-
-[Matplotlib Cheatsheets](https://matplotlib.org/cheatsheets/cheatsheets.pdf)  
 
 ## 🌟 Developer
 Name: Rohit Shamrao Muneshwar  

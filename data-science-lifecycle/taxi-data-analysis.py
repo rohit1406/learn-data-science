@@ -18,22 +18,6 @@ import matplotlib.pyplot as plt
 # Collect the data
 taxi = pd.read_csv('./data/taxi.csv')
 
-# Evaluate quantity and quality of data:
-# Do I have enough to solve the problem?
-# Is the data of acceptable quality for this problem?
-# If I discover additional information through this data, should we consider changing or redefining the goals?
-def evaluate_taxi_data():
-    print(f'(datapoints, features): {taxi.shape}')
-    print(f'columns: {taxi.columns}')
-    print('--------------------------------------')
-    taxi.info()
-    print('------------------------------------')
-    # Display all the columns of the dataset
-    pd.set_option('display.max_columns', None)
-    print(f'First five rows:\n{taxi.head()}')
-    print(f'Last five rows:\n{taxi.tail()}')
-    print('--------------------------')
-
 # Findings:
 # date time is object and needs to convert to datetime
 # we need to derive season based on month from datetime
@@ -51,15 +35,6 @@ def preprocess_taxi_data():
     # Derive seasons based on month value from the dataset
     taxi['season'] = taxi['tpep_pickup_datetime'].dt.strftime('%m').apply(lambda x: derive_season(int(x)))
 
-# Visualize taxi data per season
-def visualize_taxi_data():
-    tip_taxi = taxi.groupby(by='season')['tip_amount'].sum()
-    tip_taxi.plot(kind='bar')
-    plt.title('Tips given by Customers to Driver per Season')
-    plt.xlabel('Season')
-    plt.ylabel('Tip Amount')
-    plt.xticks(rotation=45)
-
 # Try to find out answer for below questions:
 # What other influences in the data could affect the tip amount?
 # What columns will most likely not be needed to answer the client's questions?
@@ -72,8 +47,6 @@ def analyzing_taxi_data():
     #print(taxi.head())
     # TODO: coming soon
 
-evaluate_taxi_data()
 preprocess_taxi_data()
-visualize_taxi_data()
 analyzing_taxi_data()
 plt.show()

@@ -34,8 +34,23 @@ Below is the list of programs implemented during this learning.
 | 03 | Data Visualization Techniques | [Programs](./visualization/README.md) | Data Visualization techniques with charts, visualizing quantities, distribution of data, proportions, relationships | 
 | 04 | Data Science Lifecycle | [More Details](./data-science-lifecycle/README.md) | Data Science Lifecycle events | 
 
+## Related Knowledge
+Use the best chart to suit your data's structure and the story you want to tell.  
 
-## Create and Use Virtual Environment
+1. To analyze trends over time: line  
+2. To compare values: bar, column, pie, scatterplot  
+3. To compare categories: Bar, pie  
+4. To compare totals: Pie, Stacked Bar
+5. To show distribution of data: scatterplot, hostogram, box, bar  
+6. To show trends: line, column  
+7. To show relationships between values: line, scatterplot, facet, dual-line, bubble  
+8. Show proportions: Pie, Donut, Waffle
+
+[Matplotlib Cheatsheets](https://matplotlib.org/cheatsheets/cheatsheets.pdf)  
+
+
+## Some Technical Useful tips
+### Create and Use Virtual Environment
 ```
 # Create virtual environment
 python -m venv venv
